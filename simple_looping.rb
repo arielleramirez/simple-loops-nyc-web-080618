@@ -25,7 +25,6 @@ def times_iterator(number_of_times)
   7.times do
     puts "Welcome to Flatiron School's Web Development Course!"
   end
-  
 end
 
 def while_iterator(number_of_times)
@@ -34,7 +33,6 @@ def while_iterator(number_of_times)
     puts "Welcome to Flatiron School's Web Development Course!"
     a+=1
   end
-
 end
 
 def until_iterator(number_of_times)
@@ -44,14 +42,14 @@ def until_iterator(number_of_times)
 
     b-=1
   end
-
 end
 
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
-  # remember that `for` requires a range of numbers. How can we turn our number into a range?
-  
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  # remember that `for` requires a range of numbers. How can we turn our number into a range? c=7
+  for c in 1..7 do
+    puts "Welcome to Flatiron School's Web Development Course!"
+    c-=1
+  end
 end
 
